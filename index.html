@@ -1,9 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-	<title></title>
+	<meta charset="UTF-8">
+	<title>Pokemon-Poo</title>
 </head>
-<body>
+<body BGCOLOR='#d3f27d'>
+	<h1 style='color:#6ea001;'>Ejercicio Guiado - Ataque de Pokemon</h1>
+	<option>
+		<select name="seleccion">
+			<option value="escogePoke">Escoge tu POKEMON</option> 			
+		</select>
+	</option>	
+	<select name="Pokemon" id="pkm1">
+	  <option value="Pikachu">Pikachu</option> 
+	  <option value="Charmander">Charmander</option>
+	  <option value="Jigglypuff">Jigglypuff</option>
+	  <option value="Leafeon">Leafeon</option> 
+	  <option value="Cubone">Cubone</option>
+	  <option value="Chanchicornio" selected>Chanchicornio</option>
+	</select>
+	
+	<button onclick="atacaPoke()">¡Atacar!</button>
+	
+	<select name="Pokemon2" id="pkm2">
+	  <option value="Pikachu">Pikachu</option> 
+	  <option value="Charmander" selected>Charmander</option>
+	  <option value="Jigglypuff">Jigglypuff</option>
+	  <option value="Leafeon">Leafeon</option> 
+	  <option value="Cubone">Cubone</option>
+	  <option value="Chanchicornio">Chanchicornio</option>
+	</select>
+	<p id="resul"></p>
+
+	<script src="asetss/javascript.js"></script>
 
 </body>
 </html>
