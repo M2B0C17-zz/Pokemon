@@ -68,3 +68,5 @@ B.- Dentro de una variable texto, agregamos concatenado nuestro resultado a impr
 
 C.- Decimos que queremos que se imprima nuestro texto con innerHTML en el parrafo cuyas coordenadas esta en nuestra variable res.
 
+
+Vista Previa del Ejercicio --> https://m2b0c17.github.io/EjercicioG1OBJ/
