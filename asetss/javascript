@@ -8,7 +8,7 @@ function Pokemon(nombre,color,nivelDeAmistad,vida,poderDeAtaque){
     this.poderDeAtaque = poderDeAtaque;
 
     this.mostrarPokemon = function(){
-      return('Hola, soy: ' + this.nombre + ' y soy de color: ' + this.color)
+      return('Hola, soy: ' + this.nombre + ' y soy de color: ' + this.color);
     }
 
     this.aumentarAmistad = function(valor){
@@ -26,4 +26,5 @@ const Leafeon = new Pokemon('Leafeon','crudo con verde', 50, 2000, 300);
 const Cubone = new Pokemon('Cubone','cafe', 40, 5000, 700);
 const Chanchicornio = new Pokemon('Chanchicornio','blanco con rosado', 100, 5000, 700);
 
+Pikachu.atacar(Charmander);
 console.log(Charmander,vida);
