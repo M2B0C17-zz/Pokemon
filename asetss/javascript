@@ -1,0 +1,29 @@
+function Pokemon(nombre,color,nivelDeAmistad,vida,poderDeAtaque){
+    this.nombre = nombre;
+    this.color = color;
+
+    this.nivelDeAmistad = 0;
+
+    this.vida = 100;
+    this.poderDeAtaque = poderDeAtaque;
+
+    this.mostrarPokemon = function(){
+      return('Hola, soy: ' + this.nombre + ' y soy de color: ' + this.color)
+    }
+
+    this.aumentarAmistad = function(valor){
+      this.nivelDeAmistad = this.nivelDeAmistad + valor;
+    }
+
+    this.atacar = function(pokemon){
+      pokemon.vida = pokemon.vida - this.poderDeAtaque;
+    }
+}
+const Pikachu = new Pokemon('Pikachu','amarillo', 20, 100, 100);
+const Charmander = new Pokemon('Charmander','rojo', 40, 2000, 300);
+const Jigglypuff = new Pokemon('Jigglypuff','rosado', 5, 1500, 50);
+const Leafeon = new Pokemon('Leafeon','crudo con verde', 50, 2000, 300);
+const Cubone = new Pokemon('Cubone','cafe', 40, 5000, 700);
+const Chanchicornio = new Pokemon('Chanchicornio','blanco con rosado', 100, 5000, 700);
+
+console.log(Charmander,vida);
